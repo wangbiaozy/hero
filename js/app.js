@@ -445,11 +445,12 @@ function showResult(){
     }
     $('.page.modal1').hide();
     // 设置链接
-    var link = "";
+    
+    var link = "https://mp.weixin.qq.com/s/j1T0k3uQUWYV5tzFLlNvEA";
     var linkImgSrc = imgPath+'30GB.png';
     // var rnx = "2、30GB定向流量免费2个月用户流量使用标准详见不限量办理页；王者粉色";
     rnx = "2、流量放心用套餐用户流量使用标准详见不限量办理页；"
-    if(_index < 5){
+    if(_index < 5 && _index > 1 ){
         link = "https://mp.weixin.qq.com/s/K6W3CaZajWdDb4WgBxJUXQ";
         linkImgSrc = imgPath+'more.png?v=1';
         // rnx = "2、流量放心用套餐用户流量使用标准详见不限量办理页；";
